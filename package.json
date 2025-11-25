@@ -1,42 +1,42 @@
 {
-	"name": "useeventsource",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "vitest",
-		"build": "tsup src/index.ts --format esm,cjs --dts",
-		"biome": "tsc && biome check . --max-diagnostics=100",
-		"biome:fix": "tsc && biome check . --write --max-diagnostics=100",
-		"biome:summary": "biome check --reporter=summary --max-diagnostics=100"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/heecheon92/useEventSource.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"type": "commonjs",
-	"bugs": {
-		"url": "https://github.com/heecheon92/useEventSource/issues"
-	},
-	"homepage": "https://github.com/heecheon92/useEventSource#readme",
-	"devDependencies": {
-		"@biomejs/biome": "2.3.7",
-		"@testing-library/react": "^16.1.0",
-		"@types/event-source-polyfill": "^1.0.5",
-		"@types/node": "^24.10.1",
-		"@types/react": "^19.2.7",
-		"jsdom": "^27.2.0",
-		"react": "^19.2.0",
-		"tsup": "^8.5.1",
-		"typescript": "^5.9.3",
-		"vitest": "^2.1.4"
-	},
-	"peerDependencies": {
-		"@types/event-source-polyfill": "^1.0.5",
-		"event-source-polyfill": "^1.0.31",
-		"zod": "^4.1.13"
-	}
+  "name": "@heecheon92/use-event-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "biome": "tsc && biome check . --max-diagnostics=100",
+    "biome:fix": "tsc && biome check . --write --max-diagnostics=100",
+    "biome:summary": "biome check --reporter=summary --max-diagnostics=100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heecheon92/useEventSource.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/heecheon92/useEventSource/issues"
+  },
+  "homepage": "https://github.com/heecheon92/useEventSource#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.3.7",
+    "@testing-library/react": "^16.1.0",
+    "@types/event-source-polyfill": "^1.0.5",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "jsdom": "^27.2.0",
+    "react": "^19.2.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.4"
+  },
+  "peerDependencies": {
+    "@types/event-source-polyfill": "^1.0.5",
+    "event-source-polyfill": "^1.0.31",
+    "zod": "^4.1.13"
+  }
 }

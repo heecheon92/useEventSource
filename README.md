@@ -1,4 +1,4 @@
-# useEventSource
+# @heecheon92/use-event-source
 
 Lightweight React hook and service helpers for Server-Sent Events that pair
 runtime payload validation (via `zod`) with sensible lifecycle management.
@@ -6,13 +6,13 @@ runtime payload validation (via `zod`) with sensible lifecycle management.
 ## Installation
 
 ```bash
-npm install useeventsource event-source-polyfill zod
+npm install @heecheon92/use-event-source event-source-polyfill zod
 ```
 
 ## Quick start
 
 ```ts
-import { useEventSource } from "useeventsource";
+import { useEventSource } from "@heecheon92/use-event-source";
 import { z } from "zod";
 
 const schema = {
